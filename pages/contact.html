@@ -1,19 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
 </head>
+
 <body>
     <a href="../index.html">Home</a>
     <a href="./about.html">About</a>
-    <center><h1>Hey 👋</h1></center>
+    <center>
+        <h1>Hey 👋</h1>
+    </center>
     <h2>You want to contact me? 😀</h2>
     <a href="mailto: khalideofficial@gmail.com">khalideofficial@gmail.com</a>
-    <br/>
-    <br/>
-    <a href="tel: +880 1787463481">+880 1787463481</a>
+    <br />
+    <br />
+    <a href="tel: +880 1787463481">Call me</a>
+    <br>
+    <br>
+    <br>
+
+    <!-- Form -->
+    <form action="./thankyou.html">
+
+        <input type="text" value="you can't edit this" readonly>
+        
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <label for="name">Your Name</label>
+        <br>
+        <input id="name" name="name" placeholder="Name" required>
+        <br>
+        <br>
+        <label for="email">Your email</label>
+        <br>
+        <input type="email" id="email" name="email" placeholder="Email" autocomplete="off" required>
+        <br>
+        <br>
+        <label for="age">Age</label>
+        <br>
+        <input id="age" type="number" name="age" placeholder="Your age" required>
+        <br>
+        <br>
+        <label for="birth">Birth date</label>
+        <br>
+        <input name="birth" id="birth" type="date" placeholder="Your birth date" required>
+        <br>
+        <br>
+        <br>
+
+
+
+
+
+        <label for="male">Male</label>
+        <input checked id="male" name="gender" type="radio">
+        <br>
+        <label for="female">Female</label>
+        <input id="female" name="gender" type="radio">
+        <br>
+        <label for="other">Other</label>
+        <input id="other" name="gender" type="radio">
+
+
+
+
+        <br>
+
+        <input type="password" name="password" placeholder="Passsword" minlength="8" required>
+
+        <br>
+
+        <input required type="text" placeholder="Number" value="+880">
+
+
+        <br>
+        <input type="range">
+        <br>
+
+
+        <h4>Skills</h4>
+        <input type="checkbox" name="skills">HTML <br>
+        <input type="checkbox" name="skills">CSS <br>
+        <input type="checkbox" name="skills">JS <br>
+        <input type="checkbox" name="skills">React <br>
+        <input type="checkbox" name="skills">Node js <br>
+        <br>
+
+        <textarea required name="about" cols="50" rows="10" placeholder="About">sdsd</textarea>
+
+        <br>
+        <input type="file" accept="image/png" name="profile" required>
+        <br>
+        <br>
+
+        <select name="country">
+            <option>Country</option>
+            <option>BD</option>
+            <option>IN</option>
+            <option>US</option>
+            <option>UK</option>
+            <option>Noakali</option>
+            <option>Brammonbaria</option>
+        </select>
+
+        <br>
+        <br>
+
+        <input type="reset" value="Reset">
+        
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.1432339056464!2d90.4219678152587!3d23.813505176836895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c64aeae23139%3A0x6057970156390394!2sBasundhara%20Group!5e0!3m2!1sen!2sbd!4v1642881364473!5m2!1sen!2sbd" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </body>
+
 </html>
